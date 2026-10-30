@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon parcours de trail</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f4f0;
+      color: #26352b;
+      text-align: center;
+    }
+    header {
+      background: #245c43;
+      color: white;
+      padding: 35px 15px;
+    }
+    main {
+      max-width: 650px;
+      margin: 25px auto;
+      padding: 20px;
+    }
+    .photo {
+      background: #dce7dc;
+      border-radius: 12px;
+      padding: 45px 15px;
+      margin-bottom: 22px;
+      color: #245c43;
+    }
+    .bouton {
+      display: inline-block;
+      background: #245c43;
+      color: white;
+      padding: 16px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .note {
+      font-size: 14px;
+      color: #59665c;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MON PARCOURS DE TRAIL</h1>
+    <p>Découvrez le parcours et téléchargez la trace GPS.</p>
+  </header>
+
+  <main>
+    <div class="photo">
+      <h2>📍 La photo de votre parcours</h2>
+      <p>Nous ajouterons ici votre photo.</p>
+    </div>
+
+    <h2>Prêt à partir ?</h2>
+    <p>Téléchargez le fichier GPX pour suivre le parcours sur votre montre GPS.</p>
+
+    <a class="bouton" href="trace.gpx" download>
+      ⬇ TÉLÉCHARGER LA TRACE GPX
+    </a>
+
+    <p class="note">
+      Pensez à importer le fichier GPX dans votre application GPS
+      avant de partir.
+    </p>
+  </main>
+</body>
+</html>
